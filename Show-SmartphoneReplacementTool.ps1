@@ -127,10 +127,12 @@ $user = (Get-WMIObject -ClassName Win32_ComputerSystem).Username
 Add-XamlEvent -object $WPFButtonApple -event "Add_Click" -scriptBlock {
     Write-Host ('{"Username" : "' + $user + '", "Selection" : "Apple"}')
     $window.Close()
+    Exit 0
 }
 Add-XamlEvent -object $WPFButtonAndroid -event "Add_Click" -scriptBlock {
     Write-Host ('{"Username" : "' + $user + '", "Selection" : "Android"}')
     $window.Close()
+    Exit 0
 }
 
 $Null = $window.ShowDialog()
