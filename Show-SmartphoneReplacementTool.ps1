@@ -1,3 +1,17 @@
+<#
+Version: 1.0
+Author: Jannik Reinhard (jannikreinhard.com)
+Script: Show-SmartphoneReplacementTool.ps1
+Description:
+Smartphone replacement tool (This can also be adapted to many usecases)
+Release notes:
+Version 1.0: Init
+
+#> 
+###########################################################################################################
+############################################ Functions ####################################################
+###########################################################################################################
+
 function Get-DecodeBase64Image {
     param (
         [Parameter(Mandatory = $true)]
@@ -50,11 +64,10 @@ $mainWindowXaml = @'
 <Window
 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    Title="Smartphone Replacement" Height="800" Width="1200" MinWidth="1200" MinHeight="800"
+    Title="Smartphone Replacement" Height="800" Width="1200" MinWidth="1200" MinHeight="800" MaxWidth="1200" MaxHeight="800"
     Style="{DynamicResource MaterialDesignWindow}" 
     WindowStartupLocation="CenterScreen"
-    ResizeMode="CanResize"
-    TextElement.FontFamily="Roboto"
+    WindowStyle="None"
     Background="#FF1B1A19">
     <Grid>
         <Grid.RowDefinitions>
@@ -121,5 +134,4 @@ Add-XamlEvent -object $WPFButtonAndroid -event "Add_Click" -scriptBlock {
 }
 
 $Null = $window.ShowDialog()
-
 
