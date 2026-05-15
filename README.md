@@ -1,3 +1,18 @@
+<!-- repo-standard:start -->
+# Smartphone Replacement Tool
+
+Archived tooling for mobile device replacement and endpoint management workflows.
+
+| Area | Stack | Visibility |
+| --- | --- | --- |
+| Endpoint Management | PowerShell | Public archived |
+
+**Repository:** `JayRHa/smartphone-replacement-tool`  
+**Topics:** `endpoint-management`, `mobile-device`, `powershell`, `microsoft-intune`, `archived`
+<!-- repo-standard:end -->
+
+---
+
 # Smartphone Replacement Tool
 [Blog Post](https://jannikreinhard.com/)
 <p align="left">
