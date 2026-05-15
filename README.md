@@ -12,6 +12,12 @@ Build. Automate. Share.
 [![GitHub issues](https://img.shields.io/github/issues/JayRHa/SmartphoneReplacementTool?style=for-the-badge&logo=github&color=d73a4a)](https://github.com/JayRHa/SmartphoneReplacementTool/issues)
 [![Contributors](https://img.shields.io/github/contributors/JayRHa/SmartphoneReplacementTool?style=for-the-badge&logo=github&color=28a745)](https://github.com/JayRHa/SmartphoneReplacementTool/graphs/contributors)
 
+<p>
+  <a href="https://jannikreinhard.com/">Blog</a> ·
+  <a href="https://www.linkedin.com/in/jannik-r/">LinkedIn</a> ·
+  <a href="https://x.com/jannik_reinhard">X</a>
+</p>
+
 ---
 
 `Endpoint Management` | `PowerShell` | `Public` | `Archived`
@@ -59,7 +65,7 @@ flowchart LR
 # Smartphone Replacement Tool
 [Blog Post](https://jannikreinhard.com/)
 <p align="left">
-  <a href="https://twitter.com/jannik_reinhard">
+  <a href="https://x.com/jannik_reinhard">
     <img src="https://img.shields.io/twitter/follow/jannik_reinhard?style=social" target="_blank" />
   </a>
     <a href="https://github.com/JayRHa">
