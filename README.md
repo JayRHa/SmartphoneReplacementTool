@@ -51,15 +51,10 @@ flowchart LR
    git clone https://github.com/JayRHa/SmartphoneReplacementTool.git
    ```
 
-3. Continue with the project-specific documentation in the next section.
+3. Continue with the setup, usage, or workflow sections below.
 
 ---
 <!-- unified-readme:end -->
-
-<!-- project-documentation:start -->
-## Project Documentation
-
-The sections below contain the repository-specific setup, usage, and reference material for this project.
 
 # Smartphone Replacement Tool
 [Blog Post](https://jannikreinhard.com/)
