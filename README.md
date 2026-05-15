@@ -75,4 +75,4 @@ flowchart LR
 
 
 
-![Tool View](https://github.com/JayRHa/SmartphoneReplacementTool/blob/main/.images/replacementTool.png)
+![Tool View](https://github.com/JayRHa/SmartphoneReplacementTool/blob/main/assets/replacementTool.png)
