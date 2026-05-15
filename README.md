@@ -20,7 +20,7 @@ Build. Automate. Share.
 
 ## What is this?
 
-This repository provides archived tooling for mobile device replacement and endpoint management workflows.
+Archived tooling for mobile device replacement and endpoint management workflows.
 
 > Browse the documentation below for setup notes, usage details, and project-specific context.
 
